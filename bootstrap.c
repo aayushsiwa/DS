@@ -9,7 +9,7 @@ int array_input(int a[], int n)
     printf("Enter the elements:-\n");
     for (int i = 0; i < n; i++)
     {
-        printf("%i element- ", i + 1);
+        printf("Element %d- ", i + 1);
         scanf("%d", &a[i]);
     }
 }
