@@ -19,7 +19,7 @@ int print_array(int a[],int n){
 
 int swap_elements(int a[],int n){
     int i=0,s;
-    for(i=0;i<n;i++){
+    for(i=0;i<n/2;i++){
         s=a[i];
         a[i]=a[n-(i+1)];
         a[n-(i+1)]=s;
